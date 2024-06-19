@@ -1,0 +1,167 @@
+
+.noto-sans-skill {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.roboto-mono-skiils {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.skills{
+    height: 180vh;  
+    position: relative;
+    /* background-color: black; */
+  background-image: linear-gradient(rgba(128, 128, 128, 0.623), rgba(0, 0, 0, 0.903)),  url("../../../../public/Images/code-Pic.png") ;
+  background-size: 100% 100%;
+  /* background: rgba(0, 0, 0, 0.358); */
+  
+
+}
+.skillTopic{
+        /* text-align: center; */
+        margin-left: 10%;
+        color: #00ff74;
+        font-size: 63px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.update{
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  color: rgb(212, 107, 250)  ;
+  font-size: 25px;
+  left: 1000px;
+  transform: rotateX(20deg) rotateY(20deg) rotateZ(10deg) scale3d(1.5, 2.5, 2.5) ;
+  /* background-color: transparent ; */
+
+  position: relative;
+
+  /* background-image: url("https://st.depositphotos.com/1776223/1881/i/380/depositphotos_18811185-stock-photo-mottled-yellow-background.jpg"); */
+}
+.update p{
+
+  position: absolute;
+  z-index: 1;
+  text-shadow: 1px -1px 2px rgb(247, 245, 245);
+  left: 40px;
+}
+
+.skills figure{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+.skillBox1{
+  /* height: 400px; */
+  width: 900px;
+  padding: 20px;
+  position: relative;
+  margin: 5px auto;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 40px;
+
+  justify-content: center;
+  border-top: 4px solid yellow;
+  border-start-start-radius: 100px;
+  border-left: 4px solid yellow;
+  /* border-end-start-radius: 100px; */
+  border: 2px 0px 0px 2px;
+}
+
+.skill{
+
+  transform: scale(0.8);
+  transition: 1s ease-in;
+
+}
+.skill:hover{
+  transform: scale(0.9);
+}
+
+.code-pic{
+  position: absolute;
+  z-index: 1;
+}
+
+
+.css{
+  position: relative;
+  top: -4%;
+  /* left: 40%; */
+  padding: 0px;
+}
+
+.reactlogo{
+  /* height: 2px; */
+  /* background-color: black; */
+  margin-left: 20px;
+  animation : reactRotate 4s linear infinite ;
+}
+@keyframes reactRotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg) ;
+
+  }100%{
+    transform: rotate(360deg) ;
+  }
+
+}
+/* 
+.react p{
+  
+  padding-top:20px ;
+} */
+
+.skillBox2{
+  margin: 10px;
+  height: 400px;
+  width: 900px;
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+  left: 200px;
+  border: none;
+  border-top: 4px solid yellow;
+  border-right: 4px solid yellow;
+  border-top-right-radius: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+
+ .jquery img , .express img{
+  border-radius: 20px;
+}
+
+.mongo img{
+  border-radius: 100%;
+}
+
+.skill img{
+  border-radius: 20%;
+}

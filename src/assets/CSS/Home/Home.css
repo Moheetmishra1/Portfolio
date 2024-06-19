@@ -1,0 +1,32 @@
+.black{
+    background-color: black;
+}
+
+
+.stick{
+    height: 3600px;
+    width: 4px;
+    /* border-radius: 50%; */
+    border: 1px solid blue;
+    background-color: white;
+    border-top: none;
+    border-bottom: none;
+  
+    /* box-shadow: 2px 0px 3px blue ,3px 0px 6px rgb(15, 15, 230), 6px 0px 12px blue  ,      -2px 0px 3px blue ,-3px 0px 6px rgb(15, 15, 230), -6px 0px 12px blue; */
+    position: absolute;
+    animation: sword 4s ease 0s 1 forwards;
+    left: 100px ;
+  }
+  @keyframes sword{
+    0%{
+      /* background-color: black; */
+      box-shadow: 3px 0px 30px rgb(15, 15, 230), 6px 0px 30px blue     ,-3px 0px 300px rgb(15, 15, 230), -6px 0px 300px blue;
+   
+    }100%{
+      /* background-color: blue; */
+  
+    box-shadow: 2px 0px 3px blue ,3px 0px 6px rgb(51, 51, 218), 6px 0px 12px rgb(116, 116, 229)  ,      -2px 0px 3px blue ,-3px 0px 6px rgb(81, 81, 222), -6px 0px 12px rgb(135, 135, 232);
+  
+    }
+    
+  }

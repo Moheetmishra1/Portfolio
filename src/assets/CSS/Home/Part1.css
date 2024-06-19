@@ -1,0 +1,119 @@
+.noto-sans-elymaic-regular {
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+.part1Main{
+    height: 95vh;
+    /* border-bottom: 1px solid black; */
+    background-image: url("../../../../public/Images/section1.jpg");
+    background-size: 100% 100%;
+
+    
+}
+
+.part1Main .hello{
+    width: 700px;
+    /* display: inline; */
+    font-size: 30px;
+    color: white;
+    font-family:monospace;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    position: relative;
+    top: 85px;
+    left: 250px;
+}
+.iam{
+    width: 100px;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 112px;
+    left: 370px;
+}
+
+.part1Main .fullname{
+    width: 400px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family:cursive;
+    position: relative;
+    left: 250px;
+    top: 90px;
+
+
+
+}
+
+
+
+
+.space1{
+   /*  */
+   margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.part1Main .lname{
+    font-size: 121px;
+    color: white;
+    position: relative;
+    left: 236px;
+    top: -20px;
+    letter-spacing: 4px;
+    display: flex;
+}
+
+.fname{
+
+    display: flex;
+    font-size: 121px;
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 187px;
+
+}
+
+.bigname:hover{
+    transform: scale(1.2);
+}
+
+.roles{
+    font-size: 40px;
+    /* font-weight: bold; */
+    position: relative;
+    top: 86px;
+    left: 704px;
+    display: inline;
+    letter-spacing: 3px;
+    color: purple;
+    
+    text-shadow: 1px 2px 2px rgb(238, 234, 238);
+
+
+}
+
+
+.tripleArrow{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    top: 120px;
+    left: 700px;
+}

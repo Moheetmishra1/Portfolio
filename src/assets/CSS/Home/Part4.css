@@ -1,0 +1,29 @@
+
+.rubik-myClass {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  
+}
+.part4{
+    height: 200vh;
+    background-image: linear-gradient(#101619,rgba(72, 69, 69, 0.838));
+}
+
+
+.educations-details{
+    color:#02f802;
+    font-size: 20px;
+    font-family: "Jaini", system-ui;
+    /* text-shadow: 1px 1px 60px blue, 1px 1px 2px white; */
+    letter-spacing: 2px;
+    position: absolute;
+    /* top: 150px; */
+    left: 120px;
+  }
+  
+  .mydetails{
+    position: relative;
+    left: 150px;
+  }
